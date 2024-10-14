@@ -16,7 +16,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 class AuthRepository(private val context: Context) {
 
     private val retrofit = Retrofit.Builder()
-        .baseUrl("http://192.168.8.198:5077")
+        .baseUrl("http://172.28.4.64:5077")
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 

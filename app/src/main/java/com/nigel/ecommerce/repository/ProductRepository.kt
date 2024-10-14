@@ -24,7 +24,7 @@ class ProductRepository(context: Context) {
 
 
     private val retrofit = Retrofit.Builder()
-        .baseUrl("http://192.168.8.198:5077")
+        .baseUrl("http://172.28.4.64:5077")
         .client(okHttpClient)
         .addConverterFactory(GsonConverterFactory.create())
         .build()
